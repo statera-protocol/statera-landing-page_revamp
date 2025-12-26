@@ -33,6 +33,26 @@ html {
   .container {
     @apply px-12 max-w-[1600px] mx-auto py-16;
   }
-  .text-linear-gradient {
+  
+.background-fade {
+  mask-image: 
+    linear-gradient(to left, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%), 
+    linear-gradient(to bottom, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%);
+  -webkit-mask-image: 
+    linear-gradient(to left, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%), 
+    linear-gradient(to bottom, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%);
+  mask-composite: intersect;
+  -webkit-mask-composite: source-in;
+}
+
+@media (max-width: 768px) {
+  .background-fade {
+    mask-image: 
+      linear-gradient(to bottom, transparent 0%, black 20%, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%), 
+      linear-gradient(to left, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%);
+    -webkit-mask-image: 
+      linear-gradient(to bottom, transparent 0%, black 20%, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%), 
+      linear-gradient(to left, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%);
   }
+}
 }

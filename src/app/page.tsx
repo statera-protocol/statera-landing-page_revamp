@@ -38,7 +38,7 @@ export default function Home() {
         alt="ellipse"
         height={800}
         width={800}
-        className="absolute -bottom-20 z-0 md:top-0 md:ight-0 flex"
+        className="absolute -bottom-20 z-0 md:top-0 md:right-0 flex"
       />
       <div className="absolute md:top-0 right-0 z-0 flex -bottom-55">
         <Image
@@ -46,14 +46,7 @@ export default function Home() {
           alt="background"
           width={750}
           height={750}
-          style={{
-            maskImage:
-              "linear-gradient(to left, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%), linear-gradient(to bottom, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%)",
-            WebkitMaskImage:
-              "linear-gradient(to left, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%), linear-gradient(to bottom, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%)",
-            maskComposite: "intersect",
-            WebkitMaskComposite: "source-in",
-          }}
+          className="background-fade"
         />
       </div>
       <Header />
