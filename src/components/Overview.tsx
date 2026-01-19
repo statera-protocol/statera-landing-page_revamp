@@ -15,7 +15,7 @@ const Overview = () => {
       <p className="md:text-xl md:w-4/5 lg:w-3/5 md:font-semibold">
         Statera is the foundational financial layer built on Midnight Network.
         It brings together three interconnected DeFi protocols powered by sUSD —
-        a stable, secure, overcollateralized token designed for the
+        a stable, secure, overcollateralized Stablecoin designed for the
         privacy‑first blockchain economy.
       </p>
 

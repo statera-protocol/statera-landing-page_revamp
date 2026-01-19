@@ -14,13 +14,13 @@ const productDetailData = [
     url: "/statera.png",
     name: "The Statera Stablecoin",
     details:
-      "Meet sUSD — Stability for the Midnight Economy. sUSD is the overcollateralized stablecoin that powers the Statera ecosystem. Minted through secure deposits and protected by privacy‑preserving blockchain architecture, sUSD is your gateway to staking, launchpad participation, and cross‑protocol liquidity.",
+      "Meet sUSD — Stability for the Midnight Economy. sUSD is the overcollateralized stablecoin that powers the Midnight ecosystem. Minted through secure deposits and protected by privacy‑preserving blockchain architecture, sUSD is your gateway to stability, liquidity retention, and cross-protocol liquidity on Midnight.",
   },
   {
     url: "/launch-icon.png",
     name: "Statera Launchpad",
     details:
-      "Create Tokens. Launch Sales. Build Communities.     Whether you're a startup raising capital or a creator minting a fun custom token, Statera Launchpad makes token creation instant and accessible. Features: Instant Token creation, Full Token Sale Platform, Privacy-compliant issuance",
+      "Create Tokens. Launch Sales. Build Communities.     Whether you're a startup raising capital or a creator minting a fun custom token, Statera Launchpad makes token creation instant and accessible.",
   },
   {
     url: "/liquidstakingicon.png",
