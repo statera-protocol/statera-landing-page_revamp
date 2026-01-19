@@ -66,7 +66,7 @@ const Header = () => {
 
   // Close dropdown when clicking outside
   useEffect(() => {
-    const handler = (e) => {
+    const handler = (e: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
         setOpen(false);
       }
@@ -75,7 +75,9 @@ const Header = () => {
     return () => document.removeEventListener("mousedown", handler);
   }, []);
 
-  const handleComingSoon = (e) => {
+  const handleComingSoon = (
+    e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>,
+  ) => {
     e.preventDefault();
     alert("🚧 Coming soon");
     setOpen(false);
